@@ -1,7 +1,7 @@
 import { Image, StructuredText } from "react-datocms";
 import Link from "next/link";
 import styles from "../../styles/BlogPost.module.css";
-import { request } from '../lib/datocms';
+import { request } from '../../lib/datocms';
 
 export default function BlogPost(props) {
     const { postData } = props;
